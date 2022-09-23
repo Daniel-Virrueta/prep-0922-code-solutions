@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      background-image: url('https://www.themarysue.com/wp-content/uploads/2015/02/LordOfTheRingsGateway.jpg');
+      font-family: sans-serif;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 990px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+  <div class="container"><h1>Lord of the Rings</h1></div>
+  <div class="row">
+    <div class="column" id="lotr1">
+      <img src="https://m.media-amazon.com/images/I/81EBp0vOZZL._AC_SY741_.jpg"
+        alt="Lord of the Rings 1 movie cover">
+      <h4>The future of civilization rests in the fate of the One Ring, which has
+         been lost for centuries. Powerful forces are unrelenting in their
+         search for it. But fate has placed it in the hands of a young Hobbit
+         named Frodo Baggins (Elijah Wood), who inherits the Ring and steps into
+         legend. A daunting task lies ahead for Frodo when he becomes the
+         Ringbearer - to destroy the One Ring in the fires of Mount Doom where
+         it was forged.
+      </h4>
+    </div>
+    <div class="column" id="lotr2">
+      <img src="https://m.media-amazon.com/images/I/81eqQvveI6L._AC_SY679_.jpg"
+      alt="Lord of the Rings 2 movie cover">
+      <h4>The sequel to the Golden Globe-nominated and AFI Award-winning 'The Lord
+       of the Rings: The Fellowship of the Ring,' 'The Two Towers' follows the
+       continuing quest of Frodo (Elijah Wood) and the Fellowship to destroy the
+       One Ring. Frodo and Sam (Sean Astin) discover they are being followed by
+       the mysterious Gollum. Aragorn (Viggo Mortensen), the Elf archer
+       Legolas and Gimli the Dwarf encounter the besieged Rohan kingdom, whose
+       once great King Theoden has fallen under Saruman's deadly spell</h4>
+    </div>
+    <div class="column" id="lotr3">
+      <img src="https://m.media-amazon.com/images/I/71X6YzwV0gL._AC_SY679_.jpg"
+      alt="Lord of the Rings 3 movie cover">
+      <h4>The culmination of nearly 10 years' work and conclusion to Peter
+        Jackson's epic trilogy based on the timeless J.R.R. Tolkien classic,
+        'The Lord of the Rings: The Return of the King' presents the final
+        confrontation between the forces of good and evil fighting for control
+        of the future of Middle-earth. Hobbits Frodo and Sam reach Mordor in
+        their quest to destroy the `one ring', while Aragorn leads the forces
+        of good against Sauron's evil army at the stone city of Minas Tirith.
+      </h4>
+      <iframe width="0" height="0" src="https://www.youtube.com/embed/1iYEwFDLVnM?autoplay=1;"></iframe>
+      <!--Please allow page to play media and audio!-->
+    </div>
+  </div>
+</body>
+</html>
