@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rgb(228 178 52);
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.column {
+  justify-content: space-around;
+}
+
+h4 {
+  color: rgb(228 178 52);
+}
